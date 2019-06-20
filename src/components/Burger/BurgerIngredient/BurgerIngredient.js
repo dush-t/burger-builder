@@ -13,8 +13,8 @@ class BurgerIngredient extends Component {
                 break;
             case ('bread-top'):
                 ingredient = (
-                        <div className={classes.breadTop}>
-                            <div classname={classes.Seeds1}></div>
+                        <div className={classes.BreadTop}>
+                            <div className={classes.Seeds1}></div>
                             <div className={classes.Seeds2}></div>
                         </div>
                 );
